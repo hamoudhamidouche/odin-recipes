@@ -1,0 +1,50 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(255, 246, 230);
+    margin: 0;
+}
+
+.title {
+    text-align: center;
+    font-size: 100px;
+    margin-top: -15px;
+}
+
+.pictures {
+    display: flex;
+    width: 100%;
+}
+
+.main-containter, .cards-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.recipe-link {
+    display: flex;
+}
+
+img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+a {
+    color: rgb(232, 105, 105);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
